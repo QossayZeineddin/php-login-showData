@@ -1,6 +1,6 @@
 <?php
 
-include('database connection.php');
+include('databaseConnection.php');
 include('function.php');
 
 if(isset($_POST["people_id"]))

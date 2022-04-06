@@ -2,7 +2,7 @@
 
 function get_total_all_records()
 {
-	include('database connection.php');
+	include('databaseConnection.php');
 	
 	$statement = $connection->prepare("SELECT * FROM data");
 	$statement->execute();

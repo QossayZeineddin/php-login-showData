@@ -1,6 +1,6 @@
 <?php 
  session_start();
-include('database connection.php');
+include('databaseConnection.php');
 
 if(isset($_POST['username']) && isset($_POST['password'])){
     function vaild($data){
